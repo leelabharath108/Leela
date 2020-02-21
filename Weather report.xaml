@@ -55,6 +55,7 @@
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Weather_report" sap:VirtualizedContainerService.HintSize="476,916" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -75,7 +76,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" Activate="True" DisplayName="Click search" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="[&quot;weather &quot; + City]">
+            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" Activate="True" DisplayName="Click search" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="[&quot;WEATHER IN THE  &quot; + City]">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="643bfc9628fc60e16d5f9a3373f103f9" Selector="&lt;webctrl name='q' tag='INPUT' /&gt;">
                   <ui:Target.TimeoutMS>
